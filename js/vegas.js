@@ -1,11 +1,11 @@
 $(function() {
     $('.mainimg-tate').vegas({
         slides: [
-            { src: 'images/IMG_3297.jpeg' },
-            { src: 'images/IMG_3347.jpeg' },	//1枚目の写真指定
-            { src: 'images/IMG_3387.jpeg' },	//2枚目の写真指定
-            { src: 'images/IMG_3368.jpeg'},
-            { src: 'images/IMG_3466.jpeg'},
+            { src: '/Users/oisokoga/Downloads/AkariHPサンプル/images/IMG_3297.jpg' },
+            { src: '/Users/oisokoga/Downloads/AkariHPサンプル/images/IMG_3296.jpg' },	//1枚目の写真指定
+            { src: '/Users/oisokoga/Downloads/AkariHPサンプル/images/IMG_3387.jpg' },	//2枚目の写真指定
+            { src: '/Users/oisokoga/Downloads/AkariHPサンプル/images/IMG_3368.jpg'},
+            { src: '/Users/oisokoga/Downloads/AkariHPサンプル/images/IMG_3347.jpg'},
         ],
 		transition: 'blur',			//https://vegas.jaysalvat.com/documentation/transitions/から好みのtransitionを選んで置き換えられます。
 		animation: 'kenburns',		//https://vegas.jaysalvat.com/documentation/transitions/から好みのanimationを選んで置き換えられます。
